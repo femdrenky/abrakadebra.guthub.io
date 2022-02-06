@@ -1,0 +1,87 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	height: 100%;
+	font-family: 'Comforter', cursive;
+}
+body {
+	height: 100%;
+	background-color: #DAF7A6;
+}
+main {
+	width: 65%;
+	background-color: #FFFFFF;
+	margin: auto;
+	padding: 0 50px 70px;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+
+}
+.part {
+	width: 100%;
+}
+img {
+	max-width: 65%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 500%;
+	padding: 40px 0;
+	letter-spacing: 2px;
+}
+.text {
+	font-size: 220%;
+	margin: 30px auto;
+	line-height: 1.65;
+	letter-spacing: 0.7px;
+}
+.ssilka {
+	text-decoration: none;
+	color: #929aab;
+	display: inline-block;
+	margin: 20px 0;
+	border-bottom: 1px solid transparent;
+	transition: 0.2% ease-in;
+}
+
+.ssilka:hover {
+	border-bottom-color: #FFC300;
+	color: #FFC300;
+}
+.da {
+	text-decoration: none;
+	color: #A9CCE3;
+	display: inline-block;
+	margin: 20px 0;
+	border-bottom: 1px solid transparent;
+	transition: 0.2% ease-in;
+}
+
+.da:hover {
+	color: #5D6D7E;
+	border-bottom-color: #5D6D7E;
+	font-size:50%;
+}
+.net {
+	text-decoration: none;
+	color: #82E0AA;
+	display: inline-block;
+	margin: 20px 0;
+	border-bottom: 1px solid transparent;
+	transition: 0.2% ease-in;
+}
+
+.net:hover {
+	border-bottom-color: #0B5345;
+	color: #0B5345;
+	font-size: 300%;
+}
